@@ -38,9 +38,11 @@ function fibsRec(fibLength) {
     };
     let fibArray = fibsRec(fibLength - 1);
     fibArray.push((fibArray[fibArray.length-1] + fibArray[fibArray.length-2]));
-    return fibArray //fibArray.push((fibArray[fibArray.length-1] + fibArray[fibArray.length-2]));
+    return fibArray;
 }
-console.log(fibsRec(8))
+
+// console.log(fibsRec(8))
+
 
 
 
